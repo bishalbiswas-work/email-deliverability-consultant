@@ -12,10 +12,10 @@ function App() {
 
   return (
     <div>
-      <Helmet>
+      {/* <Helmet>
         <title>{defaultTitle}</title>
         <meta name="description" content={defaultDescription} />
-      </Helmet>
+      </Helmet> */}
       <ProSidebarProvider>
         <Routes />
       </ProSidebarProvider>

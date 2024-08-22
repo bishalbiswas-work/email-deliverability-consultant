@@ -107,7 +107,9 @@ const LandingPagev2_EmailWarmup_Consultant = () => {
               size="txtDMSerifDisplayRegular20"
               style={{ color: "#f68714" }}
             >
-              Email Warmup
+              Email Deliverability Consultant
+
+
             </p>
           </div>
           <div>

@@ -5,9 +5,7 @@ import DataState from "ContextAPI/DataContext";
 
 const LandingPagev2_EmailWarmup_Consultant = lazy(() => import("./Pages/LandingPagev2_EmailWarmup_Consultant"))
 
-const LandingPageNewAutoEmailBuffer = lazy(() =>
-  import("./Pages/LandingPageNewAutoEmailBuffer")
-);
+
 
 
 const ProjectRoutes = () => {
@@ -21,7 +19,7 @@ const ProjectRoutes = () => {
             <Route
               path="/"
               element={
-                <Suspense fallback={<LandingPageNewAutoEmailBuffer />}>
+                <Suspense fallback={<LandingPagev2_EmailWarmup_Consultant />}>
                   <LandingPagev2_EmailWarmup_Consultant />
                 </Suspense>
               }
