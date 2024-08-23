@@ -161,7 +161,7 @@ const LandingPagev2_EmailWarmup_Consultant = () => {
                     <div className="flex md:flex-col flex-row md:gap-10 gap-40 items-center justify-center max-w-[1440px] md:px-10 sm:px-5 px-[140px] py-[60px] w-full">
                         <div className="flex flex-col md:gap-10 gap-[60px] h-[360px] md:h-auto items-start justify-start">
                             <div className="flex flex-col gap-3 items-left justify-center w-full">
-                                <p
+                                <h1
                                     className="sm:text-4xl md:text-[38px] text-[40px] text-blue_gray-800 w-full"
                                     size="txtAntipastoProDemiBold40"
                                 >
@@ -179,8 +179,8 @@ const LandingPagev2_EmailWarmup_Consultant = () => {
                     {" "}
                     Email Warm-up
                   </span> */}
-                                </p>
-                                <p
+                                </h1>
+                                <h2
                                     className="leading-[170.00%] text-base text-blue_gray-800_bf text-align-left"
                                     size="txtLatoRegular16"
                                 // style={{ paddingLeft: "-20px" }}
@@ -191,7 +191,7 @@ const LandingPagev2_EmailWarmup_Consultant = () => {
                                         {/* to Inbox. <br />
                     30 Second Setup. Unlimited Warmups.{" "} */}
                                     </>
-                                </p>
+                                </h2>
                             </div>
                             <div className="flex flex-col gap-8 items-center justify-start w-[570px] sm:w-full">
                                 <div className="flex sm:flex-col flex-row gap-3 items-center justify-start w-full">

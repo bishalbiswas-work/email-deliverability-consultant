@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 
-import LandingPagev2_AutomatedEmailWarmup_Consultant from './components/emailDeliverilityConsultant_landingPage/LandingPagev2_AutomatedEmailWarmup_Consultant';
 import LandingPagev2_EmailWarmup_Consultant from './components/emailDeliverilityConsultant_landingPage/LandingPagev2_EmailWarmup_Consultant';
 
 const Home = () => {
